@@ -1,0 +1,55 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFF;
+    --black: #000;
+    --dark: #232830;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body{
+    margin: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px); /*Aqui le indicamos que no le definimos la cantidad de columnas si no que se ajuste pos si solas y el tamaño 240px*/
+    gap: 25px;
+}
+.product-card{
+    width: 240px;
+}
+.product-card .product-image{
+    width: 100%;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.product-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+figure, p{
+    margin: 0;
+    font-size: var(--sm);
+}
+figure .car{
+    width: 35px;
+    height: 35px;
+}
+@media (max-width: 640px){
+    .card-container{
+        grid-template-columns:repeat(auto-fill, 140px)
+    }
+    .product-card{
+        width: 140px;
+    }
+    .product-card .product-image{
+        width: 140px;
+        height: 140px;
+    }
+}
