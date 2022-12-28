@@ -18,6 +18,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px); /*Aqui le indicamos que no le definimos la cantidad de columnas si no que se ajuste pos si solas y el tamaño 240px*/
     gap: 25px;
+    place-content: center;
 }
 .product-card{
     width: 240px;
@@ -32,6 +33,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 16px;
 }
 figure, p{
     margin: 0;
@@ -40,6 +42,14 @@ figure, p{
 figure .car{
     width: 35px;
     height: 35px;
+}
+.contend-text p:nth-child(1){
+    font-size: var(--md);
+    font-weight: bold;
+}
+.contend-text p:nth-child(2){
+    font-size: var(--sm);
+    color: var(--very-light-pink);
 }
 @media (max-width: 640px){
     .card-container{
@@ -52,4 +62,5 @@ figure .car{
         width: 140px;
         height: 140px;
     }
+  
 }
