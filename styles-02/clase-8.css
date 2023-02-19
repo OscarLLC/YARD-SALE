@@ -1,0 +1,44 @@
+:root {
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --white: #fff;
+  --black: #000;
+  --dark: #232830;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+body {
+  margin: 0;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Quicksand", sans-serif;
+}
+.mobil-menu {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.mobil-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+.mobil-menu ul {
+  list-style: none;
+  padding: 24px 0 0;
+}
+.mobil-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+.mobil-menu ul li {
+  margin-bottom: 24px;
+}
+.mobil-menu .imail {
+  font-size: var(--sm);
+  font-weight: 300;
+}
+.mobil-menu .sing-out {
+  color: var(--hospital-green);
+  font-weight: 300;
+}
