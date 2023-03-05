@@ -33,7 +33,7 @@ h1 {
   margin-left: 20px;
   color: var(--very-light-pink);
 }
-.span-button-description{
+.span-button-description {
   display: flex;
   align-items: center;
   color: var(--very-light-pink);
@@ -51,7 +51,6 @@ h1 {
 .container-content {
   display: flex;
   justify-content: space-between;
-  background-color: var(--text-input-field);
   border-radius: 10px;
   padding: 0 24px;
 }
@@ -59,26 +58,10 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-.content-image-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-  padding: 0 24px 0 0;
+.container-content .main-content{
+    display: flex;
 }
-.hotel {
-  width: 75px;
-  height: 75px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-.content-money {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  color: var(--dark);
-  font-weight: bold;
-}
-.content-image {
-  display: flex;
+.arrow{
+    width: 10px;
+    margin-left: 15px;
 }
