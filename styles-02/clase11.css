@@ -1,0 +1,46 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFF;
+    --black: #000;
+    --dark: #232830;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body{
+    margin: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+.logo-left{
+    margin-right: 30px;
+}
+
+.navar{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.navar-left{
+    display: flex;
+}
+.navar-left, li, a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--very-light-pink);
+    font-size: var(--lg);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.navar-rigth{
+    display: flex;
+    margin-right: 20px; 
+}
+.navar .navar-left li a:hover {
+    color: var(--hospital-green);
+    border: 1px solid var(--hospital-green);
+}
